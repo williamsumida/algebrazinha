@@ -10,3 +10,9 @@ class Algebrazinha:
             y += vector.y
             z += vector.z
         return Vector(x,y,z)
+
+    def scale(self, vector, s):
+        vector.x = vector.x * s
+        vector.y = vector.y * s
+        vector.z = vector.z * s
+        return vector 
